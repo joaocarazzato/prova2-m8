@@ -12,3 +12,19 @@ Sua tarefa é montar uma prova de conceito de uma aplicação que utiliza arquit
 
 Sua entrega de consultoria deve contar com o link do repositório aberto com o código-fonte da PoC desenvolvida. Em seu repositório ainda deve ser possível encontrar instruções claras para execução do projeto. 
 """
+
+## Como executar?
+Primeiro, para executar, precisamos possuir o python instalado em nosso sistema, após isso, precisamos digitar o seguinte comando dentro da pasta src para instalar as dependências:
+
+```
+pip install -r requirements.txt
+```
+
+Com as dependências já baixadas, é possível executar a aplicação digitando:
+```
+python3 main.py
+```
+
+Com isso, é só inserir a frase desejada que o texto será transcrito para aúdio e reproduzido automaticamente.
+
+Caso deseje alterar a linguagem de reprodução, é possível realizar isso alterando a linha 7 do código localizado no main.py.
